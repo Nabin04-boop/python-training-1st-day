@@ -22,7 +22,7 @@ def add(a, b):
 def sub(a, b):
     return f"{a} - {b} = {a - b}"
 
-@app.route("/templates")
+@app.route("/template")
 def template():
     return render_template("index.html", name="Nabin")
 
